@@ -1,0 +1,26 @@
+.todoListEmpty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+
+  border-top: 1px solid var(--gray-300);
+}
+
+.todoListEmpty > img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.todoListEmpty > p {
+  text-align: center;
+  color: var(--gray-300);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 140%;
+}

@@ -1,0 +1,31 @@
+.todoListInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 45px;
+}
+
+.todoListInfo>span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.todoListInfo .created {
+  color: var(--blue);
+}
+
+.todoListInfo .done {
+  color: var(--purple);
+}
+
+.todoListInfo>.created>strong,
+.done>strong {
+  color: var(--white);
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px .5rem;
+}

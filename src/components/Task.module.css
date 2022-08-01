@@ -1,0 +1,61 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 12px;
+  
+    width: 46rem;
+    min-width: 46rem;
+  
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: .5rem;
+  }
+  
+  .task > .checkButton, .deleteButton {
+    background-color: transparent;
+    border: 0;
+  }
+  .task > .checkButton:focus, .deleteButton:focus {
+    outline: none;
+    box-shadow: none;
+    color: var(--white);
+  }
+  
+  .deleteButton {
+    color: var(--gray-300);
+    padding: 5px 5px 0;
+  }
+  .deleteButton:hover {
+    background-color: var(--gray-300);
+    color: var(--red);
+    border-radius: 999px;
+  }
+  
+  .marked {
+    color: var(--purple-dark);
+  }
+  .marked:hover {
+    color: var(--purple);
+  }
+  
+  .notMarked {
+    color: var(--blue);
+  }
+  .notMarked:hover {
+    color: var(--blue-dark);
+  }
+  
+  .task > span {
+    font-size: .875rem;
+    line-height: 1.4;
+    color: var(--gray-100);
+    margin: 0 12px;
+    flex: 1;
+  }
+  .task > span.taskDone {
+    text-decoration: line-through;
+    color: var(--gray-300);
+  }

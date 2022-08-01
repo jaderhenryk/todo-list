@@ -1,0 +1,14 @@
+.mainHeader {
+  background-color: var(--gray-700);
+  min-width: 736px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 0 5rem;
+}
+
+.mainHeader img {
+  position: absolute;
+  width: 126px;
+  height: 48px;
+}
